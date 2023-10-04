@@ -49,6 +49,7 @@ function tocaSomTom(){
 
 //extrairde repetição - Enquanto 
 while(contador < listaDeTeclas.length){
+    let contador = 0;
     listaDeTeclas(contador).onclick = tocaSomPom;
 
     contador = cntador + 1;
